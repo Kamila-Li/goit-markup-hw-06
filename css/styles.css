@@ -29,13 +29,6 @@ img {
   display: block;
 }
 
-/*
-ol {
-    list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-} */
 h1,
 h2,
 h3,
@@ -52,7 +45,6 @@ ul {
   list-style: none;
 }
 
-/* loc */
 .container {
   max-width: 320px;
   margin-left: auto;
@@ -147,7 +139,7 @@ ul {
   color: #404bbf;
 }
 
-.esfyb {
+.hero {
   background-color: rgba(46, 47, 66, 0.7);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -162,18 +154,18 @@ ul {
   margin-right: auto;
 }
 
-.esfyb .container {
+.hero .container {
   max-width: 320px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-.esfyb .secpads {
+.hero .secpads {
   padding: 188px 0 188px;
 }
 
-.esfybtxt {
+.herotext {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -185,7 +177,7 @@ ul {
   margin-right: auto;
 }
 
-.esfybbutton {
+.herobutton {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -206,15 +198,15 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.esfybbutton:hover {
+.herobutton:hover {
   background-color: #404bbf;
 }
 
-.esfybbutton:focus {
+.herobutton:focus {
   background-color: #404bbf;
 }
 
-.nullseen {
+.perevagi {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -237,7 +229,7 @@ ul {
   background-color: #404bbf;
 }
 
-.nullseenp {
+.perevagigi {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -245,7 +237,7 @@ ul {
   color: #434455;
 }
 
-.saboutdiv {
+.mydiv {
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   display: flex;
@@ -258,11 +250,11 @@ ul {
   display: none;
 }
 
-.secthree {
+.three {
   background-color: #f4f4fd;
 }
 
-.otm {
+.team {
   line-height: 1.11;
   color: #2e2f42;
   font-family: Roboto;
@@ -312,7 +304,7 @@ ul {
   flex-direction: column;
 }
 
-.cot {
+.our {
   display: flex;
   flex-direction: column;
   row-gap: 72px;
@@ -334,13 +326,13 @@ ul {
   height: 1px;
 }
 
-.saboutul {
+.mys {
   display: flex;
   flex-direction: column;
   row-gap: 72px;
 }
 
-.saboutli {
+.onass {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -403,7 +395,7 @@ ul {
   text-align: left;
 }
 
-.socl {
+.praca {
   background-color: #4d5ae5;
   fill: #f4f4fd;
   display: flex;
@@ -417,12 +409,12 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socl:hover,
-.socl:focus {
+.praca:hover,
+.praca:focus {
   background-color: #404bbf;
 }
 
-.otmsoc {
+.teamour {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -531,7 +523,7 @@ ul {
   gap: 40px;
 }
 
-.sabout {
+.onas {
   padding: 120px 0 120px;
 }
 
@@ -739,7 +731,7 @@ ul {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mombtext {
+.mobtext {
   color: #2e304a;
   font-weight: 700;
   font-size: 36px;
@@ -904,14 +896,14 @@ ul {
   color: #4d5ae5;
 }
 
-.burger-btn {
+.menushka-btn {
   padding: 0;
   border: none;
   background-color: transparent;
   margin: auto 0;
 }
 
-.burger-icon {
+.menushka-icon {
   display: block;
   fill: #2f2f37;
 }
@@ -970,8 +962,8 @@ ul {
     padding-bottom: 96px;
   }
 
-  .burger-icon,
-  .burger-btn {
+  .menushka-icon,
+  .menushka-btn {
     display: none;
   }
 
@@ -981,7 +973,7 @@ ul {
     column-gap: 24px;
   }
 
-  .cot {
+  .our {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -1145,11 +1137,11 @@ ul {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .esfyb {
+  .hero {
     padding: 92.4px 0;
   }
 
-  .esfybbutton {
+  .herobutton {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -1170,14 +1162,14 @@ ul {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .esfybtxt {
+  .herotext {
     max-width: 496px;
     font-size: 56px;
     line-height: 1.1;
     margin-bottom: 36px;
   }
 
-  .esfyb .container {
+  .hero .container {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
@@ -1196,32 +1188,32 @@ ul {
     padding-right: 16px;
   }
 
-  .saboutul {
+  .mys {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
   }
 
-  .secthree {
+  .three {
     background-color: #f4f4fd;
     padding-top: 96px;
     padding-bottom: 96px;
   }
 
-  .saboutli {
+  .onass {
     width: calc((100% - 24px) / 2);
   }
 
-  .sabout {
+  .onas {
     padding-top: 96px;
     padding-bottom: 96px;
   }
 
-  .saboutdiv {
+  .mydiv {
     display: none;
   }
 
-  .nullseen {
+  .perevagi {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -1230,7 +1222,7 @@ ul {
     color: #2e2f42;
   }
 
-  .nullseenp {
+  .perevagigi {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -1271,8 +1263,8 @@ ul {
 }
 
 @media screen and (min-width: 1158px) {
-  .burger-icon,
-  .burger-btn {
+  .menushka-icon,
+  .menushka-btn {
     display: none;
   }
 
@@ -1294,7 +1286,7 @@ ul {
     padding-bottom: 24px;
   }
 
-  .cot {
+  .our {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -1457,7 +1449,7 @@ ul {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .esfyb {
+  .hero {
     max-width: 1720px;
     padding: 174.4px 0;
   }
@@ -1475,28 +1467,28 @@ ul {
     padding-right: 16px;
   }
 
-  .saboutul {
+  .mys {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
   }
 
-  .secthree {
+  .three {
     background-color: #f4f4fd;
     padding-top: 120px;
     padding-bottom: 120px;
   }
 
-  .saboutli {
+  .onass {
     width: calc((100% - 72px) / 4);
   }
 
-  .sabout {
+  .onas {
     padding-top: 120px;
     padding-bottom: 120px;
   }
 
-  .saboutdiv {
+  .mydiv {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1508,12 +1500,12 @@ ul {
     margin-bottom: 8px;
   }
 
-  .nullseen {
+  .perevagi {
     font-weight: 500;
     font-size: 20px;
   }
 
-  .nullseenp {
+  .perevagigi {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -1656,7 +1648,7 @@ ul {
   color: #4d5ae5;
 }
 
-.mobsocli {
+.mobteamo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1664,7 +1656,7 @@ ul {
   padding-top: 48px;
 }
 
-.mobsoclinl {
+.mobteamro {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1676,7 +1668,7 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mobsoclinl:hover,
-.mobsoclinl:focus {
+.mobteamro:hover,
+.mobteamro:focus {
   background-color: #404bbf;
 }
